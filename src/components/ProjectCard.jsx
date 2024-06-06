@@ -3,7 +3,7 @@ import Button from "./Button";
 const ProjectCard = ({ project }) => {
   return (
     // <div className=" bg-conic-gradient p-[2px] rounded-md">
-    <div className="bg-n-8 text-n-3 border border-gray-600 rounded-md">
+    <div className=" glass text-n-3 border border-gray-600 rounded-md">
       <img className="rounded-tl-md rounded-tr-md" src={project.image} alt="" />
       <div className="flex items-center flex-wrap gap-4 text-gray p-4 border-y border-y-gray-600">
         {project.techStack.map((item, index) => (
