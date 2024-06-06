@@ -13,6 +13,7 @@ const projects = [
       "Express",
       "Redis",
       "Tailwindcss",
+      "Socket.io",
     ],
     title: "Codelab",
     description: "A real time code collaboration web application",
