@@ -32,22 +32,21 @@ const Aboutme = () => {
       >
         <Nav title={"About-me"} des="who i am" />
         <div className="mt-[100px] max-md:gap-y-8 flex max-md:flex-col items-center justify-between w-[90vw] md:w-[70vw] mx-auto max-md:text-center">
-          <div className="md:w-[50%] flex flex-col gap-y-4 text-gray text-xl">
+          <div className="md:w-[50%] flex flex-col gap-y-4 text-gray">
             <p>👋 Hello, i’m Aniket!</p>
 
             <p>
-              a self-taught passionate FrontEnd developer from India. I've been
+              ⭐ A passionate Full Stack Developer from India. I've been
               building stuff on the 🌐 web since when I was in 10th standard,
               I've made countless projects and I also posses 🪄 magical powers
               of using react to build 🚀 delightful user interfaces.
             </p>
             <p>
-              Proactive React developer proficient in JavaScript and React.js
-              framework. Solid understanding of frontend technologies including
-              HTML, CSS. Collaborative team player with strong problem-solving
-              skills and attention to detail. Experienced in integrating
-              frontend components with server-side logic using Git for
-              collaborative projects.
+              ⭐ Proactive Full Stack Developer proficient in MERN Stack <br /> <br />
+              ⭐ Solid understanding of Full Stack technologies including HTML,
+              CSS, Javascript, ReactJs, NodeJs, ExpressJs, Mongodb. <br />{" "}
+              <br /> ⭐ Collaborative team player with strong problem-solving
+              skills and attention to detail.
             </p>
 
             <div className="mt-5  gap-3 flex items-center max-md:mx-auto">

@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,7 +15,12 @@
 }
 
 * {
-  font-family: "Overpass", sans-serif;
+  /* font-family: "Overpass", sans-serif; */
+  /* font-family: "Noto Sans", sans-serif; */
+  /* font-family: "Outfit", sans-serif; */
+  font-family: "Nunito", sans-serif;
+
+  /* font-family: menlo; */
   scroll-behavior: smooth;
 }
 

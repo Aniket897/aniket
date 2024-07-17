@@ -1,7 +1,5 @@
 import Section from "./Section";
 import SkillBox from "./SkillBox";
-import { BottomLine, Gradient } from "./design/Hero";
-import { smallSphere, stars } from "../assets";
 
 const Skills = () => {
   return (
@@ -28,7 +26,18 @@ const Skills = () => {
             heading="Tools"
             skills={["Vs code", "Git", "Github", "Postman"]}
           />
-          <SkillBox heading="Others" skills={["HTML", "CSS", "TailwindCSS"]} />
+          <SkillBox
+            heading="Others"
+            skills={[
+              "HTML",
+              "CSS",
+              "TailwindCSS",
+              "Shadcn",
+              "Chakra ui",
+              "Mongodb",
+              "mongoose",
+            ]}
+          />
         </div>
       </div>
       {/* <div className="hidden relative justify-center mb-[6.5rem] lg:flex mt-[150px]">
@@ -60,21 +69,21 @@ const Skills = () => {
       <div className="flex items-center gap-3 mx-auto w-fit min-h-[40vh] max-md:flex-col max-md:w-[90vw] max-md:mt-9">
         <p>
           <img
-            src="https://github-readme-stats.vercel.app/api?username=aniket897&show_icons=true&locale=en"
+            src="https://github-readme-stats.vercel.app/api?username=Aniket897&theme=dark&hide_border=false&include_all_commits=true&count_private=true"
             alt="aniket897"
           />
         </p>
 
         <p>
           <img
-            src="https://github-readme-streak-stats.herokuapp.com/?user=aniket897&"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Aniket897&theme=dark&hide_border=false"
             alt="aniket897"
           />
         </p>
       </div>
       <p className="mx-auto w-fit mt-3">
         <img
-          src="https://github-readme-stats.vercel.app/api/top-langs?username=aniket897&show_icons=true&locale=en&layout=compact"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aniket897&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
           alt="aniket897"
         />
       </p>

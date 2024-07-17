@@ -27,8 +27,8 @@ const Hero = () => {
       <div className="relative w-[90vw] lg:w-[70vw] mx-auto flex mt-[70px] md:mt-[150px] max-md:flex-col items-center justify-between max-md:text-center">
         <div className="md:w-[50%] flex flex-col gap-y-4">
           <p className="text-5xl font-extrabold text-n-1">
-            Aniket is a <span className="text-color-1">web designer</span> and{" "}
-            <span className="text-color-1">front-end developer</span>
+            Aniket is a <span className="text-color-1">Full stack Developer</span> and{" "}
+            <span className="text-color-1">Problem Solver</span>
           </p>
           <p className="text-gray mt-3 text-xl text-n-3">
             He crafts responsive websites where technologies meet creativity
