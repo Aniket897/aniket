@@ -26,7 +26,7 @@ const About = () => {
             <p className=" text-gray">👋 Hello, i’m Aniket Kangane!</p>
 
             <p className=" text-gray">
-              A passionate FrontEnd developer from India. I've been building
+              A passionate Full stack developer from India. I've been building
               stuff on the 🌐 web since when I was in 10th standard, I've made
               countless projects and I also posses 🪄 magical powers of using
               react to build 🚀 delightful user interfaces.
