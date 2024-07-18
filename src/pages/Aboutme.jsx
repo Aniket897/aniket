@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import Section from "../components/Section";
 import Skills from "../components/Skills";
 import { motion } from "framer-motion";
+import { saveAs } from "file-saver";
 
 const Aboutme = () => {
   const EmailLink = () => {
@@ -23,6 +24,12 @@ const Aboutme = () => {
       </a>
     );
   };
+
+  const downloadPdf = () => {
+    const pdfUrl = "/aniket_kangane_resume.pdf";
+    saveAs(pdfUrl, "aniket_kangane.pdf");
+  };
+
   return (
     <Section>
       <motion.div
@@ -42,7 +49,8 @@ const Aboutme = () => {
               of using react to build 🚀 delightful user interfaces.
             </p>
             <p>
-              ⭐ Proactive Full Stack Developer proficient in MERN Stack <br /> <br />
+              ⭐ Proactive Full Stack Developer proficient in MERN Stack <br />{" "}
+              <br />
               ⭐ Solid understanding of Full Stack technologies including HTML,
               CSS, Javascript, ReactJs, NodeJs, ExpressJs, Mongodb. <br />{" "}
               <br /> ⭐ Collaborative team player with strong problem-solving
@@ -57,9 +65,7 @@ const Aboutme = () => {
               >
                 email me
               </Button>
-              <Button href="https://drive.google.com/file/d/1Oa4ZtRlLyCFHyLRpwOwwuVyzsG5hlISj/view?usp=sharing">
-                Resume ~~>
-              </Button>
+              <Button onClick={downloadPdf}>Resume ~~></Button>
             </div>
           </div>
           <div className="rounded-full overflow-hidden md:w-[30%] aspect-square">

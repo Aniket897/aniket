@@ -47,7 +47,7 @@ const Projects = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <p className="text-3xl font-extrabold">
-              <span className="text-heading">#</span>Projects
+              <span className="text-heading">⚒️ </span>Projects
             </p>
             <div className="w-[100px] md:w-[300px] h-[1px] bg-heading"></div>
           </div>

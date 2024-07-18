@@ -50,7 +50,7 @@ const Footer = () => {
 
                     <div className="flex flex-col gap-y-1 items-center justify-center">
                         <a
-                            href={`mailto:aniketbkangane9637@gmail.com?subject=${encodeURIComponent('')}&body=${encodeURIComponent('')}`}
+                            href={`https://wa.me/${9637618151}?text=${encodeURIComponent('')}`}
                             target="_blank"
                             className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
                         >

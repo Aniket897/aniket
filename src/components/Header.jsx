@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom"; //
 import { disablePageScroll, enablePageScroll } from "scroll-lock"; //
-
+import { saveAs } from "file-saver";
 import { brainwave } from "../assets"; //
 import { navigation } from "../constants"; //
 import Button from "./Button"; //
@@ -29,6 +29,11 @@ const Header = () => {
 
     enablePageScroll();
     setOpenNavigation(false);
+  };
+
+  const downloadPdf = () => {
+    const pdfUrl = "/aniket_kangane_resume.pdf";
+    saveAs(pdfUrl, "aniket_kangane.pdf");
   };
 
   return (
@@ -77,7 +82,7 @@ const Header = () => {
         >
           Contact Me
         </a>
-        <Button className="hidden lg:flex" href={resumeLink}>
+        <Button className="hidden lg:flex" onClick={downloadPdf}>
           Resume
         </Button>
         <Button

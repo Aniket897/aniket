@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <p className="text-3xl font-extrabold">
-              <span className="text-heading">#</span>Skills
+              <span className="text-heading">💻 </span>Skills
             </p>
             <div className="w-[100px] md:w-[300px] h-[1px] bg-heading"></div>
           </div>
@@ -16,10 +16,10 @@ const Skills = () => {
         <div className="mt-[50px] grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 gap-[50px] md:gap-3">
           <SkillBox
             heading="Languages"
-            skills={["Javascript", "Python", "Java", "Typescript"]}
+            skills={["Javascript", "Python", "Typescript"]}
           />
           <SkillBox
-            heading="FrameWroks/Libreries"
+            heading="FrameWorks/Libraries "
             skills={["React", "Express"]}
           />
           <SkillBox
@@ -61,18 +61,18 @@ const Skills = () => {
       <div className="flex items-center justify-between w-[90vw] md:w-[70vw] mx-auto mt-[150px]">
         <div className="flex items-center gap-3">
           <p className="text-3xl font-extrabold">
-            <span className="text-heading">#</span>Github Stats
+            <span className="text-heading">⭐ </span>Github Stats
           </p>
           <div className="w-[100px] md:w-[300px] h-[1px] bg-heading"></div>
         </div>
       </div>
       <div className="flex items-center gap-3 mx-auto w-fit min-h-[40vh] max-md:flex-col max-md:w-[90vw] max-md:mt-9">
-        <p>
+        {/* <p>
           <img
             src="https://github-readme-stats.vercel.app/api?username=Aniket897&theme=dark&hide_border=false&include_all_commits=true&count_private=true"
             alt="aniket897"
           />
-        </p>
+        </p> */}
 
         <p>
           <img
@@ -81,14 +81,16 @@ const Skills = () => {
           />
         </p>
       </div>
-      <p className="mx-auto w-fit mt-3">
+      {/* <p className="mx-auto w-fit mt-3">
         <img
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aniket897&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
           alt="aniket897"
         />
-      </p>
+      </p> */}
     </Section>
   );
 };
 
 export default Skills;
+
+
